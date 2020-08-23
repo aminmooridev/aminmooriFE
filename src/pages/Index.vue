@@ -1,27 +1,27 @@
 <template>
   <q-page>
     <div class="row window-height">
-      <div class="col-4 q-pa-lg">
+      <div class="col-4 q-pa-xl">
         <q-img class="full-height full-width rounded-borders shadow-6" src="/img/light.jpg"/>
       </div>
-      <div class="col-8 flex flex-center">
+      <div class="col-7 flex flex-center">
         <div class="row">
           <div class="col-12">
-            <q-card flat bordered class=" my-card">
-              <q-card-section>
-                <div class="text-h6">Our Changing Planet</div>
+            <q-card flat class="transparent my-card q-pa-md q-mr-xl">
+              <q-card-section class="text-h6">
+                سلام ، خوش اومدید !
               </q-card-section>
 
-              <q-card-section class="q-pt-none">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
+              <q-card-section>
+                <div class="text-h6 text-body6 text-bold text-positive">امین موری</div>
               </q-card-section>
 
-              <q-separator inset />
+              <q-card-section class="text-justify">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+              </q-card-section>
 
               <q-card-section>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
+                <q-btn class="q-pt-xs q-pb-xs q-pl-md q-pr-md" rounded unelevated color="positive" icon-right="person" label="درباره من"/>
               </q-card-section>
             </q-card>
           </div>

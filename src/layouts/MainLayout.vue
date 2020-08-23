@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <!-- <q-header elevated>
+    <q-header elevated>
       <q-toolbar>
         <q-btn
           flat
@@ -17,7 +17,7 @@
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
-    </q-header> -->
+    </q-header>
 
     <q-drawer
       v-model="leftDrawerOpen"
@@ -41,6 +41,25 @@
     </q-drawer>
 
     <q-page-container>
+      <div class="q-mr-xl q-pl-xl relative-position window-height absolute-right z-top">
+        <div class="col-12 q-gutter-y-md absolute-center text-center">
+          <q-fab color="positive" unelevated icon="home" direction="left">
+            <q-fab-action class="q-pa-xs" label="خانه" color="positive" to="/"/>
+          </q-fab>
+          <q-fab color="positive" unelevated icon="person" direction="left">
+            <q-fab-action class="q-pa-xs" label="درباره من" color="positive" to="/about"/>
+          </q-fab>
+          <q-fab color="positive" unelevated icon="work" direction="left">
+            <q-fab-action class="q-pa-xs" label="نمونه کار" color="positive" to="/portfolio"/>
+          </q-fab>
+          <q-fab color="positive" unelevated icon="drafts" direction="left">
+            <q-fab-action class="q-pa-xs" label="ارتباط با من" color="positive" to="/contact"/>
+          </q-fab>
+          <q-fab color="positive" unelevated icon="article" direction="left">
+            <q-fab-action class="q-pa-xs" label="وبلاگ" color="positive" to="/about"/>
+          </q-fab>
+        </div>
+      </div>
       <router-view />
     </q-page-container>
   </q-layout>
