@@ -29,20 +29,20 @@
               </div>
             </div>
             <div class="row q-gutter-x-sm">
-              <q-btn unelevated round color="positive">
-                <q-icon name="ios-ion-logo-github"/>
+              <q-btn unelevated round color="grey-4">
+                <q-icon class="text-grey" name="ion-logo-github" size="xs"/>
               </q-btn>
-              <q-btn unelevated round color="positive">
-                <q-icon name="ion-ios-logo-instagram"/>
+              <q-btn unelevated round color="grey-4">
+                <q-icon class="text-grey" name="ion-logo-instagram"  size="xs"/>
               </q-btn>
-              <q-btn unelevated round color="positive">
-                <q-icon name="ion-ios-logo-whatsapp"/>
+              <q-btn unelevated round color="grey-4">
+                <q-icon class="text-grey" name="ion-logo-whatsapp" size="xs"/>
               </q-btn>
-              <q-btn unelevated round color="positive">
-                <q-icon name="ion-ios-logo-twitter"/>
+              <q-btn unelevated round color="grey-4">
+                <q-icon class="text-grey" name="ion-logo-twitter" size="xs"/>
               </q-btn>
-              <q-btn unelevated round color="positive">
-                <q-icon name="ion-ios-logo-youtube"/>
+              <q-btn unelevated round color="grey-4">
+                <q-icon class="text-grey" name="ion-logo-youtube" size="xs"/>
               </q-btn>
             </div>
           </div>

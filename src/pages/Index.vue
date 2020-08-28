@@ -1,13 +1,16 @@
 <template>
   <q-page>
     <div class="row window-height">
-      <div class="col-4 q-pa-xl">
+      <div class="col-12 col-sm-4 q-pa-xl md">
         <q-img class="full-height full-width rounded-borders shadow-6" src="/img/light.jpg"/>
       </div>
-      <div class="col-7 flex flex-center">
+      <div class="col-12 col-sm-7 flex flex-center">
         <div class="row">
           <div class="col-12">
             <q-card flat class="transparent my-card q-pa-md q-mr-xl">
+              <q-card-section class="xs text-center">
+                <q-img width="270px" ratio="1" src="/img/light.jpg" class="r-15"/>
+              </q-card-section>
               <q-card-section class="text-h6">
                 سلام ، خوش اومدید !
               </q-card-section>
